@@ -10,3 +10,7 @@ clean:
 once:
 	max_print_line=1000 pdflatex -output-directory ./build Topic_Presentation.tex | grep -v \/usr\/local
 
+three:
+	max_print_line=1000 pdflatex -output-directory ./build Topic_Presentation.tex | grep -v \/usr\/local
+	max_print_line=1000 pdflatex -output-directory ./build Topic_Presentation.tex | grep -v \/usr\/local
+	max_print_line=1000 pdflatex -output-directory ./build Topic_Presentation.tex | grep -v \/usr\/local
